@@ -6,3 +6,5 @@ Understanding embeddings is foundational for building production AI systems (sea
 Texts with similar meaning end up close together in this vector space, enabling semantic similarity search.
 
 <img width="1183" height="878" alt="image" src="https://github.com/user-attachments/assets/e2c401d2-b1f4-4c13-aedd-d3047e15eef0" />
+
+<img width="1183" height="878" alt="image" src="https://github.com/user-attachments/assets/c2ae4c3c-04ea-4b0a-9a8c-7a716f5bafd5" />
