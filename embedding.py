@@ -156,3 +156,18 @@ plt.tight_layout()
 plt.savefig('embeddings_plot.png', dpi=150, bbox_inches='tight')
 print("Plot saved as embeddings_plot.png")
 plt.show()
+
+import plotly.express as px
+from sklearn.datasets import make_classification
+
+X, y = make_classification(
+    n_features=6,
+    n_classes=3,
+    n_samples=1500,
+    n_informative=2,
+    random_state=5,
+    n_clusters_per_class=1,
+)
+fig = px.scatter_3d(x=X[:, 0], y=X[:, 1], z=X[:, 2], color=y, opacity=0.8)
+fig.write_image('3d_scatter_plot.png', scale=2)
+fig.show()
